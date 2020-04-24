@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{this.props.title}</title>
+    <meta charSet="utf-8"></meta>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"></meta>
+    <!--[if lt IE 9]>
+    <script src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/ie-23e126e677.js"></script>
+    <![endif]-->
+    </React.Fragment>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.5.7/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/console-polyfill/0.3.0/index.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+    <script src="https://gist.githubusercontent.com/eirikbacker/2864711/raw/dcc32b15ea79f8f364ca1707f81ec74a15fa25db/addEventListener-polyfill.js"></script>
+    <meta name="keywords" content={this.props.keywords}></meta>
+    <meta name="description" content={this.props.description}></meta>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"></link>
+  </head>
+  <body><div id="app">{this.props.children}</div></body>
+</html>

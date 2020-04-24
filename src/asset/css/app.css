@@ -1,0 +1,54 @@
+body {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Georgia, tahoma, arial, simsun, "宋体";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Georgia, tahoma, arial, simsun, "宋体";
+}
+
+.hidden {
+  display: none !important;
+}
+.disabled {
+  cursor             : not-allowed;
+  pointer-events     : none;
+  opacity            : 0.65;
+  filter             : alpha(opacity=65);
+  -webkit-box-shadow : none;
+  box-shadow         : none;
+}
+.pull-right{
+  float:right !important;
+}
+.pull-left{
+  float:left !important;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center{
+  text-align:center;
+}
+.text-vertical{
+  vertical-align: middle;
+}
+.text-right{
+  text-align:right;
+}
+.text-left{
+  text-align:left;
+}
+.img-full{
+  display:block;
+  width:100%;
+  height:100%;
+}

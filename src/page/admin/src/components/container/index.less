@@ -1,0 +1,136 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  margin: 16px 0 0 16px;
+  padding: 24px;
+  background: #fff;
+  overflow-y: scroll;
+}
+.wrap-loading{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+// header
+.ant-layout-header {
+  padding: 0 16px;
+  height: 60px !important;
+  line-height: 60px;
+  margin-left: 0 !important;
+  box-shadow: 0 1px 3px rgba(26,26,26,.1);
+  .userinfo {
+    float: right;
+    padding: 0 10px;
+    cursor: pointer;
+    .name {
+      display: inline-block;
+      padding-left: 6px;
+      line-height: 32px;
+    }
+  }
+  
+  .collapse {
+    font-size: 18px;
+    transition: color .3s;
+    cursor: pointer;
+    &:hover {
+      color: #108ee9;
+    }
+  }
+  
+  .screenFull {
+    font-size: 14px;
+    float: right;
+    margin-top: 13px;
+    padding: 10px;
+    transition: color .3s;
+    cursor: pointer;
+    &:hover {
+      color: #108ee9;
+    }
+  }
+}
+
+// left sider menu
+.leftMenu{
+  .ant-menu{
+    height: 100%;
+  }
+  .link-site{
+    position:relative;
+    display:block;
+    height:36px;
+    margin:20px 0;
+    padding-left:65px;
+    color: white;
+    overflow: hidden;
+    &>.anticon{
+      position: absolute;
+      left: 14px;
+      font-size: 36px;
+      animation: App-logo-spin infinite 20s linear;
+    }
+    &>span{
+      font-size: 24px;
+      font-weight: 600;
+      font-family: "Microsoft YaHei","SimHei"
+    }
+  }
+  &.ant-layout-sider-collapsed{
+    .link-site{
+      &>span{
+        display: none;
+      }
+    }
+  }
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ant-layout-sider-trigger {
+  display: none;
+}
+.ant-menu-submenu-vertical{
+  &>.ant-menu-submenu-title:after{
+    display: none;
+  }
+  .ant-menu-submenu-title span span{
+    display: none;
+  }
+}
+
+// footer
+.ant-layout-footer{
+  padding:10px 16px !important;
+  .copyright {
+    margin:0;
+    color:#999;
+    line-height:1.8;
+    font-size:12px;
+    text-align:center;
+    a {
+      margin-left:1em;
+      color:#999;
+      text-decoration: none;
+      &:hover{
+        color:#666;
+      }
+    }
+  }
+}
+
+//editor
+.rdw-editor-main {
+  min-height: 300px !important;
+}

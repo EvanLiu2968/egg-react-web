@@ -1,0 +1,283 @@
+{
+  "js/chunk/0.5bed4c52.js": "/public/js/chunk/0.5bed4c52.js",
+  "js/chunk/1.02346c4c.js": "/public/js/chunk/1.02346c4c.js",
+  "js/chunk/2.bf6bd2d4.js": "/public/js/chunk/2.bf6bd2d4.js",
+  "js/chunk/3.da743409.js": "/public/js/chunk/3.da743409.js",
+  "js/chunk/4.fa363452.js": "/public/js/chunk/4.fa363452.js",
+  "js/chunk/5.fb67f482.js": "/public/js/chunk/5.fb67f482.js",
+  "js/chunk/6.6c737ed2.js": "/public/js/chunk/6.6c737ed2.js",
+  "js/chunk/7.2772256f.js": "/public/js/chunk/7.2772256f.js",
+  "js/chunk/8.20dc91af.js": "/public/js/chunk/8.20dc91af.js",
+  "admin/index.js": "/public/js/admin/index.ba8e7f0a.js",
+  "admin/index.css": "/public/css/admin/index.000fb649.css",
+  "subscription/index.js": "/public/js/subscription/index.2ef935d3.js",
+  "subscription/index.css": "/public/css/subscription/index.71c10258.css",
+  "qrcode/index.js": "/public/js/qrcode/index.ff35225b.js",
+  "qrcode/index.css": "/public/css/qrcode/index.ff06d406.css",
+  "metaphysics/index.js": "/public/js/metaphysics/index.985635b1.js",
+  "metaphysics/index.css": "/public/css/metaphysics/index.b3ddf83c.css",
+  "pdf/index.js": "/public/js/pdf/index.10c5c7d8.js",
+  "pdf/index.css": "/public/css/pdf/index.b66ca755.css",
+  "search/index.js": "/public/js/search/index.c1719137.js",
+  "search/index.css": "/public/css/search/index.d6f8f27b.css",
+  "error/index.js": "/public/js/error/index.b908b9cb.js",
+  "error/index.css": "/public/css/error/index.f30767cd.css",
+  "photo/index.js": "/public/js/photo/index.5934bb87.js",
+  "photo/index.css": "/public/css/photo/index.94730c3f.css",
+  "chart/index.js": "/public/js/chart/index.76d1ea4b.js",
+  "chart/index.css": "/public/css/chart/index.b030a374.css",
+  "article/index.js": "/public/js/article/index.ed8ded28.js",
+  "article/index.css": "/public/css/article/index.123cfbda.css",
+  "doc/index.js": "/public/js/doc/index.e3707df4.js",
+  "doc/index.css": "/public/css/doc/index.18037ca9.css",
+  "about/index.js": "/public/js/about/index.2421a49f.js",
+  "about/index.css": "/public/css/about/index.6596a529.css",
+  "list/index.js": "/public/js/list/index.83a751f4.js",
+  "list/index.css": "/public/css/list/index.4540fe5d.css",
+  "index/index.js": "/public/js/index/index.e83d9ed4.js",
+  "index/index.css": "/public/css/index/index.effa3e69.css",
+  "layout.js": "/public/js/layout.181d0cf8.js",
+  "common.js": "/public/js/common.8d5f273d.js",
+  "vendor.js": "/public/js/vendor.84bb245a.js",
+  "deps": {
+    "js/chunk/0.5bed4c52.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/0.5bed4c52.js"
+      ],
+      "css": []
+    },
+    "js/chunk/1.02346c4c.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/1.02346c4c.js"
+      ],
+      "css": []
+    },
+    "js/chunk/2.bf6bd2d4.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/2.bf6bd2d4.js"
+      ],
+      "css": []
+    },
+    "js/chunk/3.da743409.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/3.da743409.js"
+      ],
+      "css": []
+    },
+    "js/chunk/4.fa363452.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/4.fa363452.js"
+      ],
+      "css": []
+    },
+    "js/chunk/5.fb67f482.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/5.fb67f482.js"
+      ],
+      "css": []
+    },
+    "js/chunk/6.6c737ed2.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/6.6c737ed2.js"
+      ],
+      "css": []
+    },
+    "js/chunk/7.2772256f.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/7.2772256f.js"
+      ],
+      "css": []
+    },
+    "js/chunk/8.20dc91af.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chunk/8.20dc91af.js"
+      ],
+      "css": []
+    },
+    "admin/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/admin/index.ba8e7f0a.js"
+      ],
+      "css": [
+        "/public/css/admin/index.000fb649.css"
+      ]
+    },
+    "subscription/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/subscription/index.2ef935d3.js"
+      ],
+      "css": [
+        "/public/css/subscription/index.71c10258.css"
+      ]
+    },
+    "qrcode/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/qrcode/index.ff35225b.js"
+      ],
+      "css": [
+        "/public/css/qrcode/index.ff06d406.css"
+      ]
+    },
+    "metaphysics/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/metaphysics/index.985635b1.js"
+      ],
+      "css": [
+        "/public/css/metaphysics/index.b3ddf83c.css"
+      ]
+    },
+    "pdf/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/pdf/index.10c5c7d8.js"
+      ],
+      "css": [
+        "/public/css/pdf/index.b66ca755.css"
+      ]
+    },
+    "search/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/search/index.c1719137.js"
+      ],
+      "css": [
+        "/public/css/search/index.d6f8f27b.css"
+      ]
+    },
+    "error/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/error/index.b908b9cb.js"
+      ],
+      "css": [
+        "/public/css/error/index.f30767cd.css"
+      ]
+    },
+    "photo/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/photo/index.5934bb87.js"
+      ],
+      "css": [
+        "/public/css/photo/index.94730c3f.css"
+      ]
+    },
+    "chart/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/chart/index.76d1ea4b.js"
+      ],
+      "css": [
+        "/public/css/chart/index.b030a374.css"
+      ]
+    },
+    "article/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/article/index.ed8ded28.js"
+      ],
+      "css": [
+        "/public/css/article/index.123cfbda.css"
+      ]
+    },
+    "doc/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/doc/index.e3707df4.js"
+      ],
+      "css": [
+        "/public/css/doc/index.18037ca9.css"
+      ]
+    },
+    "about/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/about/index.2421a49f.js"
+      ],
+      "css": [
+        "/public/css/about/index.6596a529.css"
+      ]
+    },
+    "list/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/list/index.83a751f4.js"
+      ],
+      "css": [
+        "/public/css/list/index.4540fe5d.css"
+      ]
+    },
+    "index/index.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/index/index.e83d9ed4.js"
+      ],
+      "css": [
+        "/public/css/index/index.effa3e69.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/vendor.84bb245a.js",
+        "/public/js/common.8d5f273d.js",
+        "/public/js/layout.181d0cf8.js"
+      ],
+      "css": []
+    },
+    "common.js": {
+      "js": [
+        "/public/js/common.8d5f273d.js",
+        "/public/js/common.8d5f273d.js"
+      ],
+      "css": []
+    },
+    "vendor.js": {
+      "js": [
+        "/public/js/common.8d5f273d.js",
+        "/public/js/vendor.84bb245a.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}

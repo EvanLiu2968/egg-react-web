@@ -1,0 +1,20 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../../fonts/ticket/iconfont.eot?t=1478576801'); /* IE9*/
+  src: url('../../fonts/ticket/iconfont.eot?t=1478576801#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../fonts/ticket/iconfont.woff?t=1478576801') format('woff'), /* chrome, firefox */
+  url('../../fonts/ticket/iconfont.ttf?t=1478576801') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../fonts/ticket/iconfont.svg?t=1478576801#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  font-family:"iconfont" !important;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 100% auto;
+  background-position: center;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
