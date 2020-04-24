@@ -12,12 +12,9 @@ module.exports = {
     const url = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}`
     const axios = require('axios')
 
-    const { getLastSaturdayDate } = ctx.service.utils
-    const today = new Date()
-    const weekDay = today.getDay()
-    const lastSaturdayDate = getLastSaturdayDate()
+    const { isVacationDate } = ctx.service.utils
 
-    if (weekDay == 6 && lastSaturdayDate !== (today.getDate()+1) ) return
+    if (isVacationDate()) return
 
     await axios({
       method: 'post',
@@ -40,25 +37,5 @@ module.exports = {
         }
       }
     })
-
-    if (weekDay == 5 && lastSaturdayDate === today.getDate()) {
-      await axios({
-        method: 'post',
-        url,
-        data: {
-          msgtype: 'news',
-          news: {
-            articles: [
-              {
-                title: "温馨提示",
-                description: "明天是本月最后一个周六，明天记得来上班哦~",
-                url: "https://xhvip100.com",
-                picurl: "https://image-cdn.xhvip100.com/prod/feedback/5e7471dcef1c290001a0e16b/5e7471e22538dacd649290b6.jpg"
-              }
-            ]
-          }
-        }
-      })
-    }
   },
 }

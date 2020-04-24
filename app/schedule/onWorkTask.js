@@ -12,12 +12,9 @@ module.exports = {
     const url = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}`
     const axios = require('axios')
 
-    const { getLastSaturdayDate } = ctx.service.utils
-    const today = new Date()
-    const weekDay = today.getDay()
-    const lastSaturdayDate = getLastSaturdayDate()
+    const { isVacationDate } = ctx.service.utils
 
-    if (weekDay == 6 && lastSaturdayDate !== (today.getDate()+1) ) return
+    if (isVacationDate()) return
 
     await axios({
       method: 'post',

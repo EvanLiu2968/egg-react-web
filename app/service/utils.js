@@ -11,11 +11,7 @@ module.exports = class UtilsService extends Service {
     })
     return res
   }
-  // 最后一个星期六上班
-  async getLastSaturdayDate() {
-    const today = new Date();
-    const lastMonthDay = new Date(today.getFullYear(), today.getMonth() + 1, 0, 23);
-    const date = lastMonthDay.getDate() - (lastMonthDay.getDay() + 1);
-    return date
+  async isVacationDate() {
+    return false
   }
 }
