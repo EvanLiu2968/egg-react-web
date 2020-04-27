@@ -20,7 +20,7 @@ module.exports = async function htmlToPDF(url, options = {}) {
       '--disable-dev-shm-usage'
     ]
   })
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     try {
       const page = await browser.newPage();
       await page.goto(url, {waitUntil: 'networkidle2'});
