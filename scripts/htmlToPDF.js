@@ -20,21 +20,28 @@ module.exports = async function htmlToPDF(url, options = {}) {
       '--disable-dev-shm-usage'
     ]
   })
-  try {
-    const page = await browser.newPage();
-    await page.goto(url, {waitUntil: 'networkidle2'});
-    // 单页异步生成的内容时
-    if (options.shouldWait){
-      await page.waitForSelector('#pdf-done', {timeout: 60000}) // 等待spa应用渲染
-    } else {
-      await sleep(500)
-    }
+  return new Promise((resolve, reject) => {
+    try {
+      const page = await browser.newPage();
+      await page.goto(url, {waitUntil: 'networkidle2'});
+      // 单页异步生成的内容时
+      if (options.shouldWait){
+        await page.waitForSelector('#pdf-done', {timeout: 60000}) // 等待spa应用渲染
+      } else {
+        await sleep(500)
+      }
 
-    await page.pdf({path: filePath, format: 'A4', scale: 1, printBackground: true});
-    await page.close();
-    browser.disconnect();
-    await browser.close();
-  } catch (error) {
-    console.log(error)
-  }
+      await page.pdf({path: filePath, format: 'A4', scale: 1, printBackground: true});
+      await page.close();
+      browser.disconnect();
+      await browser.close();
+      resolve({
+        name: filename,
+        url: `/public/pdfFile/${filename}`
+      })
+    } catch (error) {
+      console.log(error)
+      reject(error)
+    }
+  })
 }
