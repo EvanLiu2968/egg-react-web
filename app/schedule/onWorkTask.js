@@ -12,11 +12,11 @@ module.exports = {
     const url = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${key}`
     const axios = require('axios')
 
-    // const { isVacationDate } = ctx.service.utils
+    const { isVacationDate } = ctx.service.utils
 
-    // if (isVacationDate()) {
-    //   return
-    // }
+    if (isVacationDate()) {
+      return
+    }
 
     await axios({
       method: 'post',

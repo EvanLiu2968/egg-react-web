@@ -12,6 +12,13 @@ module.exports = class UtilsService extends Service {
     return res
   }
   async isVacationDate() {
-    return false
+    const vacations = [
+      '05-01', '05-02', '05-03', '05-10', '05-17', '05-24', '05-31',
+      '06-07', '06-14', '06-21', '06-28', 
+    ]
+    const format = val => val > 9 ? val : '0' + val
+    const now = new Date()
+    const date = `${format(now.getMonth()+1)}-${format(now.getDate())}`
+    return vacations.includes(date)
   }
 }
