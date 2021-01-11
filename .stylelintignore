@@ -1,0 +1,6 @@
+build/
+static/
+dist/
+node_modules/
+**/nim/
+**/NIM_WEB/nim/
