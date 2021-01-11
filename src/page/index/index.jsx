@@ -33,7 +33,7 @@ export default class App extends React.Component {
         </div>
         <p className="copyright">
           <span>© 2019 EvanLiu, Inc.</span>
-          <a target="_blank" rel="noopener noreferrer" href="http://www.miitbeian.gov.cn">粤ICP备18035883号</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/">粤ICP备18035883号</a>
         </p>
       </div>
     )
