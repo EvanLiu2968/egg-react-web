@@ -35,7 +35,7 @@ module.exports = {
       data: {
         msgtype: 'markdown',
         markdown: {
-          content: '[星火在线1对1项目日报](https://docs.qq.com/sheet/DUFV3cGVPTHBhUWpL)\n[Teambition项目迭代](https://www.teambition.com/project/5e061d4a3c30e63a61ff9c92/story/section/all)'
+          content: '[星火在线1对1项目日报](https://docs.qq.com/sheet/DZG1SUnJCak1jWWVR)\n[Teambition项目迭代](https://www.teambition.com/project/5e061d4a3c30e63a61ff9c92/story/section/all)'
         }
       }
     })
