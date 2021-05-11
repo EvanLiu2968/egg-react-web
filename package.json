@@ -40,7 +40,7 @@
     "http-proxy-middleware": "^0.18.0",
     "js-cookie": "^2.2.0",
     "koa2-connect": "^1.0.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "prop-types": "^15.6.1",
     "puppeteer": "^2.1.1",
     "qrcode": "^1.2.2",
