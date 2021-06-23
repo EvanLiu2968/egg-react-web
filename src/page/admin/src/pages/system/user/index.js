@@ -120,9 +120,9 @@ export default class User extends React.Component {
           <Table.Column title="用户名" dataIndex="name" key="id"></Table.Column>
           <Table.Column title="手机号码" dataIndex="phone" key="phone"></Table.Column>
           <Table.Column title="电子邮箱" dataIndex="email" key="email"></Table.Column>
-          <Table.Column title="用户组" dataIndex="group" key="group"></Table.Column>
-          <Table.Column title="最近修改人" dataIndex="updateName" key="updateName"></Table.Column>
-          <Table.Column title="最近修改时间" dataIndex="updateTime" key="updateTime"></Table.Column>
+          <Table.Column title="用户组" dataIndex="group_id" key="group_id"></Table.Column>
+          <Table.Column title="最近修改人" dataIndex="update_id" key="update_id"></Table.Column>
+          <Table.Column title="最近修改时间" dataIndex="update_time" key="update_time"></Table.Column>
           <Table.Column title="操作" dataIndex="id" key="id" render={(v, record, index) => {
             // TODO: 默认管理员不能删除
             return record.phone == 'admin' ? null : (
