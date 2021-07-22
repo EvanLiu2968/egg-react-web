@@ -11,6 +11,7 @@ export default class App extends React.Component {
     super(props)
   }
   render(){
+    const endYear = new Date().getFullYear()
     return (
       <div className="wrapper-full">
         <div className="box-image">
@@ -32,7 +33,7 @@ export default class App extends React.Component {
           </ul>
         </div>
         <p className="copyright">
-          <span>© 2019 EvanLiu, Inc.</span>
+          <span>© 2018-{endYear} EvanLiu, Inc.</span>
           <a target="_blank" rel="noopener noreferrer" href="https://beian.miit.gov.cn/">粤ICP备18035883号</a>
         </p>
       </div>
