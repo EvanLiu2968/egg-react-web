@@ -25,6 +25,7 @@ module.exports = {
     // "semi": ["error", "never"],
     "react/prop-types": 0, // remove react-prop, open it when you need ~
     "react/display-name": 0,
+    "react/no-deprecated": 0,
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",

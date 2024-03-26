@@ -17,7 +17,7 @@
     "clean": "rm -rf public/css public/js && easy clean",
     "lint": "eslint .",
     "fix": "eslint --fix .",
-    "ii": "npm install --registry https://registry.npm.taobao.org"
+    "ii": "npm install --registry https://registry.npmmirror.com"
   },
   "husky": {
     "hooks": {
@@ -42,7 +42,6 @@
     "koa2-connect": "^1.0.2",
     "lodash": "^4.17.4",
     "prop-types": "^15.6.1",
-    "puppeteer": "^2.1.1",
     "qrcode": "^1.2.2",
     "react": "16.11.0",
     "react-dom": "16.11.0",
@@ -85,8 +84,8 @@
     "ip": "^1.1.5",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.9.0",
     "postcss-loader": "^2.0.8",
+    "sass": "^1.72.0",
     "sass-loader": "^6.0.7",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",

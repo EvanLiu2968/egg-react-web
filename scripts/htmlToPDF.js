@@ -1,5 +1,5 @@
 const path = require('path')
-const puppeteer = require('puppeteer')
+// const puppeteer = require('puppeteer')
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));

@@ -35,10 +35,10 @@ module.exports = {
   //   cache: true   // 启动编译缓存
   // },
   loaders: {
-    eslint: true,
+    eslint: false,
     css: true,
     less: true,
-    sass: false
+    sass: true
   },
   plugins: {
     imagemini: false,
